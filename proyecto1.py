@@ -5,3 +5,5 @@ def prob_2(n):
 	b= (n-32)/1.8
 	return b
 
+def prob_3(n1, n2):
+	return n1**n2
