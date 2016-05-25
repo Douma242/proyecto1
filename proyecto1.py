@@ -10,3 +10,9 @@ def prob_3(n1, n2):
 	for i in range (1,n2):
 		n1 = n1*n
 	return n1
+
+def prob_4(n1, n2):
+	lista= []
+	lista.append(n1*"*")
+	lista.append(n2)
+	return lista
