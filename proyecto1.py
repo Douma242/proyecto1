@@ -6,4 +6,7 @@ def prob_2(n):
 	return b
 
 def prob_3(n1, n2):
-	return n1**n2
+	n= n1
+	for i in range (1,n2):
+		n1 = n1*n
+	return n1
