@@ -11,8 +11,8 @@ def prob_3(n1, n2):
 		n1 = n1*n
 	return n1
 
-def prob_4(n1, n2):
-	lista= []
-	lista.append(n1*"*")
-	lista.append(n2)
-	return lista
+def prob_4(caracter, lon):
+	h= len caracter
+	lon= lon-h
+	lon=lon/2
+	return "*"*lon, caracter, "*"*lon
